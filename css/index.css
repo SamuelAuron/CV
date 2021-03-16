@@ -1,0 +1,66 @@
+:root {
+  --color-black-first:#000;
+  --color-black-second: #594236;
+  --color-black-third: #93A3BC;
+  --color-first: #48ACF0;
+  --color-second: #6F584B;
+  --color-third: #CCDDE2;
+  --color-error: #BA1F33;
+  --color-success: #62C370;
+  --color-warning: #CEB02A;
+  --color-fourth: #094871;
+}
+/*
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-second);
+  border-bottom: 10px solid var(--color-black-first);
+  padding: 10px 20px;
+}
+
+nav {
+  text-align: right;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-third);
+  font-size: 20px;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+a::before {
+  content:'';
+  background-color: var(--color-first);
+  color: var(--color-first);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+#logo{
+  box-shadow: 5px 5px 0 var(--color-black-first);
+}
+
+#button{
+  display: inline-block;
+  line-height: 60px;
+  background-color: var(--color-first);
+  padding-left: 20px;
+  padding-right: 18px;
+  box-shadow: 5px 5px 0 black;
+  margin-right: 0px;
+  
+}
+
+#button:hover{
+  background-color: var(--color-fourth);
+  transition: background-color 0.5s;
+}
