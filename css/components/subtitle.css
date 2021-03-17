@@ -1,0 +1,7 @@
+.subtitle {
+  font-family: 'Aldrich', Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: var(--color-third);
+  text-shadow: 4px 4px 0 var(--color-black-first);
+}
