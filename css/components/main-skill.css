@@ -1,0 +1,25 @@
+.main-skill{
+  display: flex;
+  align-items: center;
+  font-family: 'Aldrich', Arial, Helvetica, sans-serif;
+
+  color: var(--color-third);
+  width: 430px;
+}
+
+.main-skill .icon{
+  margin-right: 25px;
+  width: 90px;
+}
+
+.main-skill .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 430px;
+}
+
+
+.main-skill .title {
+  font-size: 45px;
+}
