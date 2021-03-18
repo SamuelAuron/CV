@@ -10,6 +10,7 @@
 }
 
 .main-section.-projects{
+  height: 520px;
   background-color: var(--color-black-first);
   border-bottom: 10px solid var(--color-first);  
 }
