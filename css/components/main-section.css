@@ -1,11 +1,11 @@
-.section{
+.main-section{
   background-color: var(--color-first);
   padding: 50px 0px 100px;
   border-bottom: 10px solid var(--color-second);  
   height: 740px;
 }
 
-.section .main-title {
+.main-section .main-title {
   margin-bottom: 60px;
 }
 
