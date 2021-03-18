@@ -9,3 +9,7 @@
   margin-bottom: 60px;
 }
 
+.main-section.-projects{
+  background-color: var(--color-black-first);
+  border-bottom: 10px solid var(--color-first);  
+}
