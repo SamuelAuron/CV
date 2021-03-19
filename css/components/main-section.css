@@ -2,7 +2,6 @@
   background-color: var(--color-first);
   padding: 50px 0px 100px;
   border-bottom: 10px solid var(--color-second);  
-  
 }
 
 .main-section .main-title {
@@ -13,6 +12,15 @@
   background-color: var(--color-black-first);
 }
 
+.main-section.-bgBrown {
+  background-color: var(--color-second);
+}
+
 .main-section.-bordColorFirst {
   border-bottom: 10px solid var(--color-first);  
 }
+
+.main-section.-bordColorBlack {
+  border-bottom: 10px solid var(--color-black-first);  
+}
+
