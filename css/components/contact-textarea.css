@@ -1,0 +1,8 @@
+.contact-textarea {
+  border:5px solid var(--color-black-first);
+  box-sizing: border-box;
+  width: 100%;
+  height: 318px;
+  background-color: var(--color-third);
+  font-size: 30px;
+}
