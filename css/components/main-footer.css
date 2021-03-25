@@ -1,0 +1,11 @@
+.main-footer{
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-black-first);
+}
+
+.main-footer .footer-figure img{
+  max-width: 48px;
+  max-height: 48px;
+  margin-left: 40px;
+}
