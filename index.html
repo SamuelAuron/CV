@@ -21,12 +21,15 @@
   <link rel="stylesheet" href="css/components/wrapper-skill.css">
   <link rel="stylesheet" href="css/components/card-project.css">
   <link rel="stylesheet" href="css/components/wrapper-card.css">
-  <link rel="stylesheet" href="css/components/main-about.css">
+  <link rel="stylesheet" href="css/components/main-description.css">
+  <link rel="stylesheet" href="css/components/button-arrow.css">
+  <link rel="stylesheet" href="css/components/node-card.css">
+  <link rel="stylesheet" href="css/components/main-carousel.css">
   <title>Samuel Dutra</title>
 </head>
 <body>
   <header class="main-header">
-    <img class="logo" src="assets/img/logo.svg" alt="logo">
+    <img class=".main-logo" src="assets/img/logo.svg" alt="logo">
     <nav>
       <a class="main-action" href="" lang="en">Skills</a>
       <a class="main-action" href="">Projetos</a>
@@ -98,18 +101,43 @@
         </a>
       </div>
     </section>
+
     <section class="main-section -bgBrown -bordColorBlack">
       <h2 class="main-title -second">Sobre</h2>
-      <article class="main-about">
-        <p>Estudante de Ciência da Computação e desenvolvedor FrontEnd. Atualmente trabalhando como TI na faculdade Pitágoras.</p>
-      </article>
       
-      
+      <p class="main-description">Estudante de Ciência da Computação e desenvolvedor FrontEnd. Atualmente trabalhando como TI na faculdade Pitágoras.</p>
+
+      <section class="main-carousel">
+        <button class="button-arrow -left"><span class="content">Avançar</span></button>
+        <div class="itens">
+          <div class="elements">
+            <figure class="node-card">
+              <figcaption class="title">2018</figcaption>
+              <div class="logo">
+                <img src="img/logo-prin.png" alt=" Logo da Pitágoras" >
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="title">2018</figcaption>
+              <div class="logo">
+                <img src="img/logo-prin.png" alt=" Logo da Pitágoras" >
+              </div>
+            </figure>
+            <figure class="node-card">
+              <figcaption class="title">2018</figcaption>
+              <div class="logo">
+                <img src="img/logo-prin.png" alt=" Logo da Pitágoras" >
+            </figure>
+          </div>
+        </div>
+        <button class="button-arrow -right"><span class="content">Voltar</span></button>
+      </section>
+     
     </section>
     
     
 
   </main>
-  
+  <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
