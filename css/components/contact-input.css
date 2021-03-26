@@ -1,8 +1,0 @@
-.contact-input {
-  border:5px solid var(--color-black-first);
-  box-sizing: border-box;
-  width: 100%;
-  background-color: var(--color-third);
-  font-size: 30px;
-  margin-bottom: 20px;
-}

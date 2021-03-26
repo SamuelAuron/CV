@@ -16,6 +16,10 @@
   background-color: var(--color-second);
 }
 
+.main-section.-bgDarkBrown {
+  background-color: var(--color-black-second);
+}
+
 .main-section.-bordColorFirst {
   border-bottom: 10px solid var(--color-first);  
 }

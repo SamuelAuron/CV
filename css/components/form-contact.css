@@ -1,4 +1,21 @@
 .form-contact {
-  margin-right: 40px;
-  margin-left: 40px;
+  padding: 50px 40px;
+  background-color: var(--color-black-second);
+}
+
+.form-contact .main-title {
+  margin-bottom: 30px;
+}
+
+.form-contact .main-input{
+  margin-bottom: 20px;
+}
+
+.form-contact .-textarea{
+  margin-bottom: 40px;
+  resize: none;
+}
+
+.form-contact .-form-button{
+  margin-bottom: 50px;
 }

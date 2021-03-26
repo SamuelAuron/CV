@@ -10,4 +10,5 @@
   color: var(--color-third);
   text-shadow: none;
   text-align: center;
+  line-height: 60px;
 }

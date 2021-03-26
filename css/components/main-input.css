@@ -1,9 +1,14 @@
-.contact-textarea {
+.main-input {
   border:5px solid var(--color-black-first);
   box-sizing: border-box;
   width: 100%;
-  height: 318px;
+  line-height: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
   background-color: var(--color-third);
   font-size: 30px;
-  margin-bottom: 40px;
+}
+
+.main-input.-textarea {
+  height: 318px;
 }
